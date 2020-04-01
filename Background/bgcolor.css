@@ -1,0 +1,15 @@
+body {
+    background-color: cadetblue;
+}
+div {
+    border: 5px solid blueviolet;
+    width: 800px;
+    height: 600px;
+    padding: 20px;
+    /* background-color: red; */
+    margin: 30px;
+    /* background-size: contain; */
+    background-origin: content-box;
+    background-image: url(josh-applegate-vAkaLvqVFmc-unsplash.jpg);
+    /* background: repeating-radial-gradient(red, blue 30%); */
+}

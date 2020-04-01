@@ -1,0 +1,43 @@
+#container {
+    width: 700px;
+    height: 800px;
+    border: tomato 2px solid;
+    border-radius: 10px;
+}
+
+#part1 {
+    width: 340px;
+    height: 800px;
+    background-image: url(yuvraj.jpg);
+    background-size: cover;
+}
+
+#part2 {
+    margin-left: 15px;
+    width: 340px;
+    height: 800px;
+}
+
+#container > div{
+    display: inline-block;
+    margin: 0px;
+}
+
+#part2  div {
+    margin-left: 15px;
+    margin-top: 25px;
+    box-sizing: border-box;
+}
+
+#part2 input[type="text"],
+#part2 input[type="password"],
+#part2 input[type="email"] {
+    width: 90%;
+    border: 1px solid blueviolet;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 0.9em;
+    padding: 0.8em;
+}
+label{
+    font-size: 20px;
+}

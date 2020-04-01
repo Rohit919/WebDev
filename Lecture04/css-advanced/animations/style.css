@@ -1,0 +1,37 @@
+div {
+  height: 50px;
+  width: 50px;
+  margin: 20px;
+  background-color: firebrick;
+  animation: leftright 2s infinite;
+}
+
+.two {
+  animation-timing-function: ease-in;
+}
+
+.three {
+  animation-timing-function: ease-out;
+}
+
+.four {
+  animation-timing-function: linear;
+}
+
+@keyframes leftright {
+  0% {
+    animation-timing-function: ease-in;
+    background-color: red;
+  }
+  33% {
+    animation-timing-function: ease-out;
+    background-color: blue;
+    transform: rotate(45deg);
+  }
+  66% {
+    background-color: green;
+  }
+  100%{
+    background-color: red;
+  }
+}

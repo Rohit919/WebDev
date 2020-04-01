@@ -1,0 +1,25 @@
+#para1 {
+    text-align: left;
+    color: blue;
+    background-color: #eed5b7;
+    border-style: hidden;
+    font: normal bold 22px Georgia, serif;
+}
+
+table,
+td,
+th {
+    border: 2.5px groove black;
+    background-color: #f5f5f5;
+}
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+}
+
+td {
+
+    height: 30px;
+    vertical-align: bottom;
+}

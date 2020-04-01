@@ -1,0 +1,16 @@
+h1{
+    /* display: none; */
+}
+
+ul{
+    border: darkblue solid 2px;
+}
+
+li{
+    border: brown solid 3px;
+    display: inline;
+    margin: 30px;
+}
+span{
+    display: block;
+}

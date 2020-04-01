@@ -1,0 +1,21 @@
+.right {
+  text-align: right;
+  color: red;
+}
+
+.big {
+  font-size: 20pt;
+}
+
+#one {
+  background-color: yellow;
+}
+
+div {
+  font-family: sans-serif;
+}
+
+div.right {
+  padding-right: 30px;
+  color: blue;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>My Form1</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+
+    <form class="myForm" method="get" action="">
+
+        <p>
+            <label>Name
+                <input type="text" name="customer_name" required>
+            </label>
+        </p>
+
+        <p>
+            <label>Father's Name
+                <input type="text" name="father_name" required>
+            </label>
+        </p>
+
+        <p>
+            <label>Mother's Name
+                <input type="text" name="mother_name" required>
+            </label>
+        </p>
+
+
+        <p>
+            <label>Phone
+                <input type="tel" name="phone_number">
+            </label>
+        </p>
+
+        <p>
+            <label>Email
+                <input type="email" name="email_address">
+            </label>
+        </p>
+        <p>
+            <label>Date Of Birth
+                <input type="date" name="date_of_birth">
+            </label>
+        </p>
+
+        <fieldset>
+            <legend>Enter Your Gender</legend>
+            <p><label class="choice"> <input type="radio" name="male" id="gender"  value="male"> Male </label></p>
+            <p><label class="choice"> <input type="radio" name="female" id="gender"   value="female"> Female </label></p>
+            <p><label class="choice"> <input type="radio" name="other" id="gender"  value="other"> Other </label></p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Select Course</legend>
+            <p><label class="choice"> <input type="checkbox" name="btech" value="india"> B Tech </label></p>
+            <p><label class="choice"> <input type="checkbox" name="pharmacy" value="srilanka"> Pharmacy
+                </label></p>
+            <p><label class="choice"> <input type="checkbox" name="other" value="other"> Other </label></p>
+        </fieldset>
+
+        <p>
+            <label>Pickup Place
+                <select id="pickup_place" name="pickup_place">
+                    <option value="" selected="selected">Select One</option>
+                    <option value="office">Taxi Office</option>
+                    <option value="town_hall">Town Hall</option>
+                    <option value="telepathy">We'll Guess!</option>
+                </select>
+            </label>
+        </p>
+
+        <p>
+            <label>Dropoff Place
+                <input type="text" name="dropoff_place" required list="destinations">
+            </label>
+
+            <datalist id="destinations">
+                <option value="Airport">
+                <option value="Beach">
+                <option value="Fred Flinstone's House">
+            </datalist>
+        </p>
+
+        <p>
+            <p>
+                <label>Phone
+            <label>Special Instructions
+                <textarea name="comments" maxlength="500"></textarea>
+            </label>
+        </p>
+
+        <p><button>Submit Booking</button></p>
+
+    </form>
+
+</body>
+
+</html>

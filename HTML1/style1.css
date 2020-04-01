@@ -1,0 +1,10 @@
+div {
+    outline: rosybrown 5px dashed;
+    padding: 200px;
+    margin: 10px;
+    background-color: rosybrown;
+    border: 50px red dotted ;
+    /* height: 550px; */
+    width: 550px;
+    box-sizing: padding-box;
+}

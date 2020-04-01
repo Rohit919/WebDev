@@ -1,0 +1,34 @@
+div {
+    height: 200px;
+    width: 200px;
+    border: chocolate 3px dashed;
+    margin: 10px;
+}
+#box1{
+    background-color: cornflowerblue;
+    transition: background-color,width 1s;
+}
+#box1:hover{
+    background-color: rosybrown;
+    width: 300px;
+}
+#box2{
+    background-color: gold;
+    transition: ;
+}
+#box3{
+    background-color: rebeccapurple;
+    transition: ;
+}
+#box4{
+    background-color: blue;
+    transition: ;
+}
+#box5{
+    background-color: green;
+    transition: ;
+}
+#box6{
+    background-color:red;
+    transition: ;
+}
